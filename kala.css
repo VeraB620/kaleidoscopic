@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.word{
+	display: block;
+	position: relative;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	text-align: center;
+	margin-top: 20%;
+
+
+}
+h1{
+	font-size: 300px
+
+	color:red;
+animation:myfirst 5s;
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+-o-animation:myfirst 5s; /* Opera */
+    
+-moz-animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+-o-animation-iteration-count: infinite;
+}
+
+@keyframes myfirst
+{
+0%   {color:#BDB76B;} 
+10%  {color: #008080;} 
+20%  {color:#00FF7F;}
+30%  {color:#DC143C;} 
+40%  {color:#1E90FF;}
+50%  {color:#800080;}
+60%  {color:#FF69B4;}
+70%  {color:#FF7F50;} 
+80%  {color:#708090;}
+90%  {color:#EE82EE;} 
+100% {color:#BDB76B;}
+
+}
+
+@-moz-keyframes myfirst /* Firefox */
+0%   {color:#BDB76B;} 
+10%  {color: #008080;} 
+20%  {color:#00FF7F;}
+30%  {color:#DC143C;} 
+40%  {color:#1E90FF;}
+50%  {color:#800080;}
+60%  {color:#FF69B4;}
+70%  {color:#FF7F50;} 
+80%  {color:#708090;}
+90%  {color:#EE82EE;} 
+100% {color:#BDB76B;}
+
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {color:#BDB76B;} 
+10%  {color: #008080;} 
+20%  {color:#00FF7F;}
+30%  {color:#DC143C;} 
+40%  {color:#1E90FF;}
+50%  {color:#800080;}
+60%  {color:#FF69B4;}
+70%  {color:#FF7F50;} 
+80%  {color:#708090;}
+90%  {color:#EE82EE;} 
+100% {color:#BDB76B;}
+
+
+
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {color:#BDB76B;} 
+10%  {color: #008080;} 
+20%  {color:#00FF7F;}
+30%  {color:#DC143C;} 
+40%  {color:#1E90FF;}
+50%  {color:#800080;}
+60%  {color:#FF69B4;}
+70%  {color:#FF7F50;} 
+80%  {color:#708090;}
+90%  {color:#EE82EE;} 
+100% {color:#BDB76B;}
+
+;
+}
+
